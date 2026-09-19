@@ -112,4 +112,4 @@ Depois, essas imagens são usadas com as classes `bg-uber` e `bg-city`:
 - `bg-left`: posiciona a imagem à esquerda.
 
 ---
-![preview]()
+[preview-on-CodePen](https://codepen.io/editor/Ildem96/pen/01a0b9f7-241b-70a3-b3a1-acccf8482996)
