@@ -1,4 +1,4 @@
-# Uber Projeto
+# Uber Página Inicial 
 
 Landing page inspirada na página inicial da Uber, feita para praticar HTML e Tailwind CSS. O foco deste projeto é aprender a montar uma interface responsiva usando classes utilitárias diretamente no HTML.
 
@@ -110,5 +110,6 @@ Depois, essas imagens são usadas com as classes `bg-uber` e `bg-city`:
 - `bg-no-repeat`: impede a repetição da imagem;
 - `bg-cover`: faz a imagem cobrir o elemento;
 - `bg-left`: posiciona a imagem à esquerda.
---
+
+---
 ![preview]()
