@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/uber/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style type="text/tailwindcss">
+      @theme {
+        --background-image-uber: url("/assets/bguber.png");
+        --background-image-city: url("/assets/bg-city.png");
+      }
+    </style>
+
+    <script src="/script.js" defer></script>
+    <title>Uber - Nunca foi tao facil viajar!</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="w-full bg-black h-20 px-2">
+      <div
+        class="h-20 w-full flex items-center justify-between max-w-7xl mx-auto"
+      >
+        <div class="flex items-center">
+          <img src="/assets/uberlogo.png" alt="logo uber" class="w-20 mr-7" />
+
+          <nav class="hidden sm:flex items-center gap-5">
+            <a
+              href="#"
+              class="text-white font-medium hover:bg-zinc-900 px-2 py-2 rounded-lg duration-500"
+              >Company</a
+            >
+            <a
+              href="#"
+              class="text-white font-medium hover:bg-zinc-900 px-2 py-2 rounded-lg duration-500"
+              >Safeety</a
+            >
+            <a
+              href="#"
+              class="text-white font-medium hover:bg-zinc-900 px-2 py-2 rounded-lg duration-500"
+              >Help</a
+            >
+          </nav>
+        </div>
+        <div class="flex items-center gap-4">
+          <a
+            href="#"
+            class="text-white font-medium hover:bg-zinc-900 px-2 py-2 rounded-2xl duration-500"
+            >Login</a
+          >
+          <a href="#" class="bg-white font-medium rounded-full px-3 py-1"
+            >Sign Up</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!--HERO-->
+    <main class="w-full bg-uber bg-no-repeat bg-cover bg-left sm:py-10">
+      <div class="w-full max-w-7xl mx-auto flex">
+        <section class="bg-white max-w-lg w-full md:mx-2 md:my-2">
+          <div class="bg-slate-100 flex w-full items-center justify-between">
+            <section
+              class="flex-1 pt-3 flex flex-col items-center justify-center gap-2"
+            >
+              <i class="fa fa-signal" style="font-size: 32px"></i>
+              <span class="text-center font-medium"
+                >Faça Viagens ou entrega</span
+              >
+              <span class="w-full bg-black h-[1.5px]"></span>
+            </section>
+
+            <section
+              class="flex-1 pt-3 flex flex-col items-center justify-center gap-2"
+            >
+              <i class="fa fa-car" style="font-size: 32px"></i>
+              <span class="text-center font-medium">Viajar</span>
+            </section>
+
+            <section
+              class="flex-1 pt-3 flex flex-col items-center justify-center gap-2"
+            >
+              <i class="fa fa-key" style="font-size: 32px"></i>
+              <span class="text-center font-medium">Alugue seus carros</span>
+            </section>
+          </div>
+
+          <div class="flex flex-col gap-5 px-4 my-4">
+            <h1 class="font-bold text-4xl max-w-sm">
+              Assuma o comando e ganhe
+            </h1>
+
+            <p class="max-w-sm">
+              Dirija na plataforma com a maior rede de usuários ativos.
+            </p>
+
+            <button
+              class="bg-black self-start text-white px-6 py-2 rounded-lg font-medium hover:scale-105 duration-200"
+            >
+              Cadastre-se para dirigir
+            </button>
+
+            <a
+              href="#"
+              class="text-slate-600 mt-7 mb-4 border-b-2 self-start hover:border-gray-700 duration-300"
+              >Saiba mais sobre como dirigir e fazer entregas</a
+            >
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!--CALL TO ACTION-->
+    <section class="w-full py-11 bg-city bg-no-repeat bg-cover bg-left px-2">
+      <div class="w-full max-w-7xl mx-auto flex flex-col gap-5">
+        <h1 class="text-3xl lg:4xl font-bold w-full max-w-2xl">
+          A plataforma Uber que você conhece, reinventada para empresas
+        </h1>
+        <p class="font-medium text-sm max-w-2xl md:text-base">
+          Uma plataforma simples para empresas de todos os portes administrarem
+          suas viagens e refeições globais e entregas locais
+        </p>
+        <button
+          class="bg-black font-medium text-white rounded-lg self-start py-2 px-6 hover:scale-105 duration-200"
+        >
+          Começar
+        </button>
+      </div>
+    </section>
+
+    <!--CALL TO ACTION-->
+
+    <!--POSTs BLOG-->
+    <section class="w-full px-2 py-8 sm:py-11">
+      <div class="w-full flex flex-col max-w-7xl mx-auto">
+        <h1 class="font-bold text-2xl max-w-2xl sm:4xl mb-6">
+          Preocupados com a segurança onde quer que você vá
+        </h1>
+        <div class="w-full flex flex-col gap-4 sm:flex-row">
+
+        <a href="#" class="flex1">
+          <article class="flex flex-col gap-2">
+            <img src="/assets/post1.png" alt="imagem do post 1" class="opacity-80 hover:scale-95 hover:opacity-100 duration-300"/>
+            <h2 class="font-bold text-lg">Sua segurança é a nossa prioridade</h2>
+            <p class="text-stone-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam, facere sint dolores consequatur mollitia dolorum laboriosam similique tempore magni, cum culpa.</p>
+          </article>
+        </a>
+
+        <a href="#" class="flex1">
+          <article class="flex flex-col gap-2">
+            <img src="/assets/post2.png" alt="imagem do post 2" class="opacity-80 hover:opacity-100 duration-300 hover:scale-95"/>
+            <h2 class="font-bold text-lg">Colocamos mais de 10.000 cidades em movimento</h2>
+            <p class="text-stone-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam, facere sint dolores consequatur mollitia dolorum laboriosam similique tempore magni, cum culpa.</p>
+          </article>
+        </a>
+      </div>
+    </section>
+
+    <!--SOBRE-->
+    <section class="w-full px-2 py-8 sm:py-11 ">
+
+      <div class="w-full max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3   gap-8">
+
+       <article class="flex flex-col gap-4 ">
+        <i class="fa fa-users" style="font-size: 32px;"></i>
+            <h2 class="font-bold text-xl">Quem somos</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatum odio enim eaque iste sequi, tenetur quis laboriosam non neque.</p>
+            <a href="#" class="text-gray-600 mt-3 border-b-2 self-start hover:border-gray-400 hover:text-black duration-200">Saiba mais sobre a Uber</a>
+        </i>
+     </article>
+
+    <article class="flex flex-col gap-4 ">
+        <i class="fa fa-clipboard" style="font-size: 32px;"></i>
+            <h2 class="font-bold text-xl">NewsRoom</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatum odio enim eaque iste sequi, tenetur quis laboriosam non neque.</p>
+            <a href="#" class="text-gray-600 mt-3 border-b-2 self-start hover:border-gray-400 hover:text-black duration-200">Acesse a News Room</a>
+        </i>
+    </article>
+
+    <article class="flex flex-col gap-4 ">
+        <i class="fa fa-home" style="font-size: 32px;"></i>
+            <h2 class="font-bold text-xl">Cidadania Global</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatum odio enim eaque iste sequi, tenetur quis laboriosam non neque.</p>
+            <a href="#" class="text-gray-600 mt-3 border-b-2 self-start hover:border-gray-400 hover:text-black duration-200">Veja nossos parceiros</a>
+        </i>
+    </article>
+</div>
+    </section>
+
+    <!--AREA DO APP-->
+
+    <section class="w-full px-2 py-8 sm:py-11 bg-gray-300">
+      <div class="w-full max-w-7xl mx-auto flex flex-col gap-4">
+        <h2 class="font-bold text-2xl md:text-4xl">É mais fácil pelo app</h2>
+
+        <div class="flex flex-col w-full gap-5 md:flex-row">
+          
+          <a href="#" class="flex w-full border-2 border-slate-300 px-4 py-6 bg-white items-center justify-between hover:shadow-lg duration-300">
+           <div class="flex items-center">
+            <img src="/assets/qrcode1.png" alt="qr baixar app" class="hidden md:flex mr-4 w-1/3">
+
+            <div class="">
+              <h3 class="font-bold text-xl">Baixe o App da Uber</h3>
+              <span class="hidden md:block">Leia o código QR code para baixar o app<span>
+            </div>
+          </div>
+
+             <i class="fa fa-chevron-right hover:scale-110 duration-200" style="font-size: 24px;"></i>
+          </a>
+
+           <a href="#" class="flex w-full border-2 border-slate-300 px-4 py-6 bg-white items-center justify-between hover:shadow-lg duration-300">
+           <div class="flex items-center">
+            <img src="/assets/qrcode2.png" alt="baixe o app de parceiro" class="hidden md:flex mr-4 w-1/3">
+
+            <div class="">
+              <h3 class="font-bold text-xl">Baixe o App de parceiro</h3>
+              <span class="hidden md:block">Leia o código QR code para baixar o app<span>
+            </div>
+          </div>
+
+             <i class="fa fa-chevron-right hover:scale-110 duration-200" style="font-size: 24px;"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!--AREA AÇÃO CADASTRO-->
+    <section class="w-full px-2 py-8 sm:py-11">
+
+      <div class="w-full max-w-7xl mx-auto flex flex-col md:flex-row gap-5">
+
+        <a href="#" class="flex items-center w-full  justify-between border-b-[1.5px] border-gray-950 py-6 hover:text-zinc-800 duration-200">
+          <h2 class="font-bold text-3xl lg:text-4xl max-w-xs">Cadastre-se para dirigir</h2>
+          <i class="fa fa-arrow-right" style="font-size: 24px;"></i>
+        </a>
+
+        <a href="#" class="flex items-center w-full  justify-between border-b-[1.5px] border-gray-950 py-6 hover:text-zinc-800 duration-200">
+          <h2 class="font-bold text-3xl lg:text-4xl max-w-xs">Cadastre-se para viajar</h2>
+          <i class="fa fa-arrow-right" style="font-size: 24px;"></i>
+        </a>
+
+      </div>
+    </section>
+
+      <!--AREA AÇÃO CADASTRO-->
+      <footer class="bg-black  flex flex-col items-center justify-center py-12 gap-4">
+        <img src="/assets/uberlogo.png" alt="logo uber" class="w-20">
+        <span class="text-white">@2026 Para fins de estudo</span>
+
+        <div class="flex flex-col sm:flex-row gap-4 items-center justify-center">
+          <a href="#" class="w-full flex items-center justify-center">
+            <img src="/assets/playstore.png" alt="logo playstore" class="w-2/3 sm:w-full">
+          </a>
+
+          <a href="#" class="w-full flex items-center justify-center">
+            <img src="/assets/lojapple.png" alt="logo playstore" class="w-2/3 sm:w-full">
+          </a>
+        </div>
+
+      </footer>
+  </body>
+</html>
